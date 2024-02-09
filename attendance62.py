@@ -5,7 +5,7 @@ import pytz
 
 TOKEN = '6795150115:AAECKTUAE99ilDgBT9wWKoc1Smp4NOLZeaU'
 bot = Bot(TOKEN)
-updater = Updater('6795150115:AAECKTUAE99ilDgBT9wWKoc1Smp4NOLZeaU', use_context=True)
+updater = Updater('6795150115:AAECKTUAE99ilDgBT9wWKoc1Smp4NOLZeaU')
 dispatcher = updater.dispatcher
 scheduler = BackgroundScheduler(timezone=pytz.timezone('Asia/Karachi'))
 
